@@ -1,0 +1,35 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(254, 255, 165) 0%,
+    rgb(255, 232, 182) 90%
+  );
+}
+
+h1 {
+  top: 50px;
+  padding: 20px;
+}
+
+h3 {
+  font-family: "Mali-light";
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+li {
+  font-size: 30px;
+  display: block;
+  line-height: 80px;
+  padding: 15px;
+}
+
+input {
+  padding: 10px;
+  margin: 20px;
+}
+
+div {
+  display: block;
+  margin: 0 auto;
+}

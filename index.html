@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Niki's weather app</title>
+    
+    <link rel="stylesheet" href="src/styles.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@1,300&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+      <div class="container">
+         <div class="row">
+              <div class="col-6">
+                    <h1 id="change"> Turku </h1>
+                    <br>
+                    <div class="col-6"></div>
+                    <h2> 
+                        <span id="emoji"> 🌤️ </span>
+                        <span> Currently </span>
+                        <span id="temp"> 16°C </span>
+                    </h2>
+                    <span class="units">
+                        <a href="#" id="celsius-link">°C</a>
+                             | 
+                        <a href="#" id="farenheit-link">°F</a>
+                    </span>
+         
+                    <div>
+                        <h5 id="time"> today </h5>
+                    </div>
+        
+      
+                </div>
+    
+    
+                 <div class="col-2">
+                    <input type="text" placeholder="Type your city" id="city-input">
+                    <button id="search">Search</button>
+                </div>
+                <hr>
+    
+            </div>
+        </div>
+            <p>
+                 <br>
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-3">
+                            <h3>Today</h3>
+                            <li> 8:00   🌥️  12°C  </li>
+                             <li> 12:00  🌤️  15°C </li>
+                            <li> 16:00  ☀️   17°C </li>
+                             <li> 20:00  ☀️  15°C</li>
+                             <li> 24:00  ☁️  12°C </li>
+                        </div>
+
+                         <div class="col-3">
+                            <h3>Next five days </h3>
+                             <li> Monday       20°C 🌤️ </li>
+                             <li> Tuesday      22°C 🌤️</li>
+                             <li> Wednesday    25°C ☀️</li>
+                             <li> Thursday     25°C ☀️</li>
+                             <li> Friday       19°C 🌥️</li>
+                         </div>
+                    </div>
+                </div>
+            </p>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
